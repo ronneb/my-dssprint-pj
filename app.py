@@ -7,7 +7,7 @@ st.header('Cuadro de Mando de Anuncios de Vehículos')
 st.write('Bienvenido al panel interactivo de análisis exploratorio del mercado de coches usados.')
 
 # 2. Leer los datos del archivo CSV
-car_data = pd.read_csv('my-dssprint-pj/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # 3. Sección de Casillas de Verificación (Interactividad)
 st.subheader('Visualizaciones Disponibles')
